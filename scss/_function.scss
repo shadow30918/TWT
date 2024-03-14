@@ -1,0 +1,21 @@
+@function fvw($val, $vw: $mvw){
+    @return calc(( $val / $vw ) * 100vw);
+}
+@function mfvw($a){
+    @return calc(( $a / $mvw ) * 100vw);
+}
+@function fvh($a,$b: $vh){
+    @return calc(( $a / $b ) * 100vh);
+}
+@function mfvh($a){
+    @return calc(( $a / $mvh ) * 100vh);
+}
+@function fpct($a,$b: $vw){
+    @return calc(( $a / $b ) * 100%);
+}
+@function lh($a,$b){
+    @return calc( $b / $a );
+}
+@function rem($a) {
+    @return calc(($a / $rem) + rem);
+}

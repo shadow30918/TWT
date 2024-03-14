@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580" height="53" viewBox="0 0 580 53">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="580" height="53" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="sec-title-慶祝方案" transform="translate(327 -37)">
+    <g id="Text" transform="translate(0 4)">
+      <g id="Scroll_Group_23" data-name="Scroll Group 23" transform="translate(-327 33)" clip-path="url(#clip-path)" style="isolation: isolate">
+        <text id="服務總覽" transform="translate(0 39)" fill="#fff" font-size="36" font-family="MElleHK-Medium, MElleHK" font-weight="500"><tspan x="0" y="0">台灣大哥大 x 台灣之星合併慶祝方案</tspan><tspan x="0" y="36"></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

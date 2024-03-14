@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台灣大哥大 | Open Possible 能所不能</title>
+  <meta name="description"
+    content="我們創造一個聚合電信、網路、媒體與電子商務的「聚合為一」平台，提供客戶科技解決方案，幫助他們生活變得更加便捷、安全與健康, 支持客戶, 讓他們能所不能。為您的世界打開無限可能，台灣大哥大 Open Possible 能所不能。">
+  <meta property="og:title" content="台灣大哥大 | Open Possible 能所不能" />
+  <meta property="og:description"
+    content="我們創造一個聚合電信、網路、媒體與電子商務的「聚合為一」平台，提供客戶科技解決方案，幫助他們生活變得更加便捷、安全與健康, 支持客戶, 讓他們能所不能。為您的世界打開無限可能，台灣大哥大 Open Possible 能所不能。" />
+  <meta property="og:site_name" content="台灣大哥大" />
+  <meta property="og:image" content="https://www.taiwanmobile.com/mobile/img/index/og_meta_image.jpg" />
+  <meta property="og:image:alt" content="台灣大哥大 | Open Possible 能所不能" />
+  <meta name="twitter:description"
+    content="我們創造一個聚合電信、網路、媒體與電子商務的「聚合為一」平台，提供客戶科技解決方案，幫助他們生活變得更加便捷、安全與健康, 支持客戶, 讓他們能所不能。為您的世界打開無限可能，台灣大哥大 Open Possible 能所不能。" />
+  <meta name="twitter:title" content="台灣大哥大 | Open Possible 能所不能" />
+  <meta name="twitter:image" content="https://www.taiwanmobile.com/mobile/img/index/og_meta_image.jpg" />
+  <meta itemprop="name" content="台灣大哥大 | Open Possible 能所不能">
+  <meta itemprop="description"
+    content="我們創造一個聚合電信、網路、媒體與電子商務的「聚合為一」平台，提供客戶科技解決方案，幫助他們生活變得更加便捷、安全與健康, 支持客戶, 讓他們能所不能。為您的世界打開無限可能，台灣大哥大 Open Possible 能所不能。">
+  <meta itemprop="image" content="https://www.taiwanmobile.com/mobile/img/index/og_meta_image.jpg">
+  <link rel="shortcut icon" type="image/ico" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/favicon.ico?v=20220223">
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-57x57.png?v=20220223">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-60x60.png?v=20220223">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-72x72.png?v=20220223">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-76x76.png?v=20220223">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-114x114.png?v=20220223">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-120x120.png?v=20220223">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-144x144.png?v=20220223">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-152x152.png?v=20220223">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/apple-icon-180x180.png?v=20220223">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/android-icon-192x192.png?v=20220223">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/favicon-32x32.png?v=20220223">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/favicon-96x96.png?v=20220223">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.taiwanmobile.com/bp-include/Y22/img/ico/favicon-16x16.png?v=20220223">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/aos.min.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- <script src="./js/vue.min.js"></script> -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/aos.min.js"></script>
+  <style>
+      body {
+          padding: 0;
+          margin: 0
+      }
+
+      .loading_background {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 2000000;
+          pointer-events: auto
+      }
+      .remove-loading .loading_background {
+          display: none
+      }
+      .loading_background:before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: #fff;
+          transform: scaleX(1) skewX(0);
+          transform-origin: 100% 100%;
+          transition: transform .8s cubic-bezier(.7,0,.3,1);
+          transition: transform .8s cubic-bezier(.7,0,.3,1),-webkit-transform .8s cubic-bezier(.7,0,.3,1)
+      }
+
+      .header-loading .loading_background:before {
+          transform:scaleX(1) skewX(0);
+      }
+
+      .header-loading-done .loading_background:before,.header-loading.header-loading-done .loading_background:before {
+          transform:scaleX(0) skewX(-50deg);
+      }
+
+      .header-loading .loading_background {
+          pointer-events: auto
+      }
+
+      .header-loading-done .loading_background,.header-loading.header-loading-done .loading_background {
+          pointer-events: none
+      }
+
+      .loadind_background-center-box {
+          display: none
+      }
+  </style>
+  <style>
+    .loadind_background-center-box {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 150px;
+        margin: auto;
+        width: 120px;
+        height: 120px;
+        z-index: 1;
+        -webkit-transition: opacity .4s cubic-bezier(.7,0,.3,1);
+        -o-transition: opacity .4s cubic-bezier(.7,0,.3,1);
+        transition: opacity .4s cubic-bezier(.7,0,.3,1);
+        opacity: 1
+    }
+
+    @media all and (min-width: 768px) {
+        .loadind_background-center-box {
+            bottom:200px
+        }
+    }
+
+    @media all and (min-width: 1280px) {
+        .loadind_background-center-box {
+            bottom:50px
+        }
+    }
+
+    .header-loading .loadind_background-center-box {
+        opacity: 1
+    }
+
+    .header-loading-done .loadind_background-center-box,.header-loading.header-loading-done .loadind_background-center-box {
+        opacity: 0
+    }
+
+    .loadind_background-center-shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-animation: loading_rotate 2.5s cubic-bezier(.43,.15,.6,1.06) infinite;
+        animation: loading_rotate 2.5s cubic-bezier(.43,.15,.6,1.06) infinite;
+        display: block
+    }
+
+    @-webkit-keyframes loading_blink {
+        0% {
+            opacity: .2
+        }
+
+        20% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: .2
+        }
+    }
+
+    @keyframes loading_blink {
+        0% {
+            opacity: .2
+        }
+
+        20% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: .2
+        }
+    }
+
+    @-webkit-keyframes loading_rotate {
+        0% {
+            -webkit-transform: rotate(0);
+            transform: rotate(0)
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes loading_rotate {
+        0% {
+            -webkit-transform: rotate(0);
+            transform: rotate(0)
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    .loadind_background-center-number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        padding-left: 18px;
+        white-space: nowrap;
+        vertical-align: top;
+        height: 15px;
+        font-size: 15px;
+        line-height: 1
+    }
+
+    .loadind_background-center-number span {
+        -webkit-animation: loading_blink 1.4s infinite both;
+        animation: loading_blink 1.4s infinite both;
+        color: #ff6100;
+        display: inline-block
+    }
+
+    .loadind_background-center-number span:nth-child(2) {
+        margin-left: 2px
+    }
+
+    .loadind_background-center-number span:nth-child(3) {
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s
+    }
+
+    .loadind_background-center-number span:nth-child(4) {
+        -webkit-animation-delay: .4s;
+        animation-delay: .4s
+    }
+
+    .loadind_background-center-number span,.loadind_background-center-number svg {
+        display: inline-block
+    }
+  </style>
+  <style type="text/css">
+      @font-face {
+          font-family: 'Brown';
+          src: url("font/Brown-Regular.otf") format("opentype");
+          font-weight: 400;
+          font-style: normal;
+      }
+
+      @font-face {
+          font-family: 'Brown';
+          src: url("font/Brown-Bold.otf") format("opentype");
+          font-weight: 700;
+          font-style: normal;
+      }
+  </style>
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0" aria-hidden="true" id="__SVG_SPRITE_NODE__">
+      <symbol id="stroke-polygon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 583">
+        <path d="M7.99999 291.5L47.5581 153.047L146.453 47.5582L291.5 7.99999L429.953 47.5581L535.442 149.75L575 291.5L535.442 429.953L429.953 535.442L291.5 575L146.453 535.442L47.5581 436.547L7.99999 291.5Z" stroke="currentColor" stroke-width="15" fill="none"></path>
+      </symbol>
+      <symbol id="down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path d="m3 5.5 5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      </symbol>
+      <symbol id="up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path d="m3 10.5 5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      </symbol>
+      <symbol id="left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path d="m10.5 13-5-5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      </symbol>
+      <symbol id="right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path d="m5.5 3 5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      </symbol>
+      <symbol id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M1.5 12h21m0 0L12.75 1.5M22.5 12l-9.75 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </symbol>
+      <symbol id="menu-hamburger" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 9h18v2H7V9Zm0 5.8h18v2H7v-2Zm1 5.8H7v2h18v-2H8Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="m12.4247 4.70427.5303-.53033-1.0606-1.06066-.5304.53033L8.15525 6.8524 4.94646 3.64361l-.53033-.53033-1.06066 1.06066.53033.53033 3.20879 3.20879L3.8858 11.1218l-.53033.5304 1.06066 1.0606.53033-.5303 3.20879-3.20878L11.364 12.1825l.5304.5303 1.0606-1.0606-.5303-.5304-3.20879-3.20874 3.20879-3.20879Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="earphone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20.2014 8.96822v.5h2.6051l.6935.53248v4.6719l-.6935.5325h-3.443l-.1449.1384-3.5261 3.3684-.1546.1477v2.3628l-.3877.3827h-4.708l-.3877-.3827v-2.0522l.3877-.3827H13.9718l.1468-.1484 4.6635-4.7158.1444-.1461V6.71611l-.1759-.14973-3.2986-2.80702-.1401-.11921H8.68809l-.14009.11921-3.29858 2.80702-.17596.14973v7.95649l-.6935.5325H1.1935L.5 14.6726v-4.6719l.6935-.53248h2.60508V6.58981l.26299-.6923 3.92228-3.33406.51336-.16892H15.4l.6247.17618 3.9137 3.3268.263.6923v2.37841z" fill="currentColor" stroke="currentColor"></path>
+      </symbol>
+      <symbol id="global" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.9998c0-3.31189 1.17596-6.14378 3.52791-8.49573C5.87986 1.15212 8.70375-.01583 11.9997.00017c3.2959.016 6.1278 1.18395 8.4958 3.5039 2.3679 2.31995 3.5359 5.15185 3.5039 8.49573-.032 3.344-1.2 6.1759-3.5039 8.4958-2.304 2.32-5.1359 3.4879-8.4958 3.5039-3.35995.016-6.18384-1.1519-8.47179-3.5039C1.23996 18.1437.064 15.3118 0 11.9998zm2.83513.9345c.08.88.29599 1.736.64799 2.568.46399 1.1679 1.13596 2.1839 2.01594 3.0479.87998.864 1.87995 1.5359 2.99992 2.0159l.12-1.6079c.064-.8.12799-1.416.19199-1.848-.064-.256-.23999-.664-.52798-1.2239-.288-.56-.45599-1.016-.50399-1.368 0-.304.008-.536.024-.696.016-.16.024-.288.024-.384-.064-.016-.144-.072-.23999-.168l-.168-.192c-.128-.128-.22399-.208-.28799-.24l-.81598-.288c-.35199-.128-.61598-.216-.79198-.264-.17599-.048-.40799-.144-.69598-.2879-.28799-.144-.52798-.288-.71998-.432-.192-.144-.39999-.32-.62398-.528-.224-.208-.41599-.432-.57599-.672-.128.832-.15199 1.6879-.072 2.5679zm3.4059-8.1582c.27199-.032.55198-.032.83998 0 .28799.128.59198.37599.91197.74398s.59198.62398.81598.76798c.064.064.16.096.28799.096.064.14399.24799.23999.55199.28799.30399.048.49596.10399.57596.16799.368.224.664.48799.888.79198-.384.52799-.68.83998-.888.93598 0 .032.016.048.048.048.064.12799.032.22399-.096.28799-.096.032-.28797.08-.57596.14399-.28799.064-.47199.152-.55199.264-.07999.11199-.15999.30399-.23999.57598 0 .064-.032.12804-.096.19204.064.4319.08.8239.048 1.1759s-.13599.536-.31199.552c-.096 0-.2-.016-.31199-.048-.112-.032-.25599-.096-.43199-.192s-.36799-.232-.57599-.408c0 .096.032.208.096.336.064.128.096.232.096.312h.144c.11199-.032.19999-.008.26399.072.064.08.064.152 0 .216l-.048.144-.048.048.192.096c.15999.112.31199.168.45598.168.144 0 .31999-.016.52799-.048.31999-.032.56798-.048.74398-.048.176 0 .39199.072.64796.216.256.144.432.264.528.36.096.096.272.232.528.408.256.176.44.32.552.432.064.032.24.136.528.3119.288.176.496.328.6239.456.128.128.2.296.216.504-.032 1.12-.2399 1.88-.6239 2.28-.112.128-.288.28-.528.4559-.24.176-.424.344-.552.504-.128.16-.244.34-.348.54-.104.2-.156.42-.156.66-.096.192-.224.464-.384.816-.16.352-.28.584-.36.696 1.584.304 3.1359.208 4.6559-.288s2.8079-1.336 3.8639-2.52c.816-.8799 1.424-1.8479 1.8239-2.9039.4-1.056.624-2.1519.672-3.2879l-.8879.504c-.384-.032-.576.032-.576.192l.384.144c.064.032.096.064.096.096.064.16.032.328-.096.504-.096.192-.328.48-.696.8639-.032.4-.064.664-.096.792l-.24.504v.336c-.032.128-.104.304-.216.528-.112.224-.184.424-.216.6-.064.432-.248.8399-.552 1.2239-.464.432-.856.616-1.176.552-.128-.032-.2399-.112-.3359-.24-.064-.208-.168-.504-.312-.8879-.144-.384-.24-.616-.288-.696-.064-.16-.096-.32-.096-.48 0-.16.016-.344.048-.552.032-.208.048-.376.048-.504s-.056-.312-.168-.552c-.112-.24-.168-.408-.168-.504-.032-.08 0-.232.096-.4559l-.216-.072c-.128-.048-.384-.072-.768-.072h-.288c-.704 0-1.152-.44-1.344-1.32-.096-.528.016-1.04.336-1.536.016-.064.024-.136.024-.216v-.168c.16-.032.304-.184.432-.4559.128 0 .416-.032.864-.096s.784-.104 1.008-.12c.224-.01604.504.024.84.12.1279.096.2559.176.3839.2399.224.144.408.248.552.312l.768-.5039c-.16-.25604-.32-.46403-.48-.62403-.432-.49599-.888-.49599-1.3679 0l-1.632-.12c-.256.144-.568.232-.936.264-.032-.176-.08-.32799-.144-.45599-.096-.192-.152-.34399-.168-.45599-.016-.112.008-.19999.072-.26399l.192-.168c.128-.09599.216-.23199.264-.40799.048-.17599.088-.36799.12-.57598.032-.208.064-.36799.096-.47999.08-.22399.216-.47198.408-.74398.096-.22399.28-.39999.552-.52798.272-.128.552-.232.84-.312.288-.07999.5999-.14399.9359-.19199.336-.048.64-.08.912-.096-.592-.49599-1.2-.91997-1.8239-1.27196-.192 0-.448-.04-.768-.12-.32-.08-.552-.12-.696-.12-.336-.032-.728.08-1.176.33599-.336.256-.7359.38399-1.1999.38399-.592 0-1.192-.10399-1.8-.31199-.60797-.20799-1.11996-.43199-1.53595-.67198-1.02397.33599-1.95994.84797-2.80792 1.53596z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.069.7417l4.1982 6.99708c.0069.24271.0104.46136.0139.6781.0035.22065.007.4393.0141.67933L13.9063 23.2583 12.6048 24h-1.1475l-1.2455-.7417L2.71094 9.13819V7.73878L6.71327.7137 7.93076 0h7.96264l1.1756.7417zM8.29289 7.71227c0 1.96311 1.59141 3.55452 3.55451 3.55452a3.5545 3.5545 0 002.5134-1.0411 3.55451 3.55451 0 001.0411-2.51342c0-1.9631-1.5914-3.55452-3.5545-3.55452S8.29289 5.74918 8.29289 7.71228z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="member" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.4773 20.0916c-1.5353-3.2074-4.5124-5.6085-8.1245-6.5526v-1.6802l2.987-4.7744V5.68427L15.7262 1.5259 14.4418.83984H9.45364l-1.29932.71407-2.47915 4.10236V7.0564l2.98693 4.8024v1.6662c-3.65992.935-6.66994 3.3759-8.1842 6.6366L0 21.1977l1.37399 1.9601H22.626L24 21.1836l-.5227-1.092z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6086 21.9671l-3.9105-6.8753 3.1764-5.44945V7.49647l-3.8117-6.45176L15.2416 0H7.8863L6.051 1.07294 2.39453 7.52471v2.11764l3.82588 6.40945 1.82118 1.0306h5.91531L17.9239 24l3.6847-2.0329zM6.63281 8.54074l2.49883-4.30588h4.89886l2.5694 4.34824-2.4989 4.2353H9.25869L6.63281 8.54074z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="icon-media-facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M9.42101 21.8v-9.3031H6V8.8h3.42101V5.88719C9.42101 2.7225 11.5441 1 14.6439 1c1.4853 0 2.7609.10156 3.1311.14625v3.30687h-2.1498c-1.686 0-2.0116.73125-2.0116 1.79969V8.8h3.8046l-.5218 3.6969h-3.2828V21.8" fill="currentColor"></path>
+      </symbol>
+      <symbol id="icon-media-ig" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.1333 12.313c0-2.68466 2.18411-4.86877 4.8688-4.86877 2.6847 0 4.8688 2.18411 4.8688 4.86877 0 2.6846-2.1841 4.8686-4.8688 4.8686-2.68469 0-4.8688-2.184-4.8688-4.8686zm1.67647-.0001c0 1.7602 1.43213 3.1921 3.19233 3.1921 1.7602 0 3.1923-1.4319 3.1923-3.1921 0-1.7603-1.432-3.19231-3.1923-3.19231S8.80977 10.5526 8.80977 12.3129z" fill="currentColor"></path>
+        <path d="M16.2067 6.38258c.2281-.22912.5454-.35988.8684-.35988.3241 0 .6415.13076.8695.35988.2292.228.3599.54541.3599.86953 0 .323-.1307.64041-.3599.86953-.2291.228-.5454.35988-.8695.35988-.323 0-.6404-.13188-.8684-.35988-.2291-.22912-.361-.54642-.361-.86953 0-.32412.1318-.64153.361-.86953z" fill="currentColor"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.76896 2.86523h8.46644c2.8753 0 5.2146 2.33924 5.2145 5.21439V16.546c0 2.8752-2.3392 5.2144-5.2145 5.2144H7.76896c-2.87515 0-5.21427-2.3391-5.21427-5.2144V8.07962c0-2.87515 2.33912-5.21439 5.21427-5.21439zM16.2355 20.0839c1.9508 0 3.538-1.587 3.538-3.5379l-.0001-8.46638c0-1.95074-1.5872-3.53791-3.538-3.53791H7.76896c-1.95074 0-3.5378 1.58717-3.5378 3.53791V16.546c0 1.9509 1.58706 3.538 3.5378 3.5379h8.46654z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="icon-media-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.939 2c6.0296 0 10.939 3.97393 10.939 8.8577 0 1.9535-.7578 3.713-2.3407 5.4525-2.3005 2.6359-7.4313 5.8471-8.5983 6.3355-1.1316.4736-1.002-.2669-.9502-.5623.0016-.0093.0031-.0181.0045-.0264.0141-.0838.0278-.1647.0411-.2427.2583-1.5219.3324-1.9584-.8861-2.2193C4.89003 18.8992 1 15.2331 1 10.8577 1 5.97393 5.90948 2 11.939 2zM5.78221 12.4838h2.08586c.11402 0 .20792.1003.20792.214v.7627c0 .1204-.0939.2141-.21462.2141H4.79629c-.06036 0-.10731-.0268-.14755-.0602-.04024-.0401-.06036-.087-.06036-.1472V8.71054c0-.12043.0939-.21409.21462-.21409h.76459c.12073 0 .21462.09366.21462.21409v3.77326zm3.93027-3.98735h-.76459c-.12072 0-.21462.09366-.21462.21409v4.75666c0 .1204.0939.2141.21462.2141h.76459c.12073 0 .21462-.0937.21462-.2141V8.71054c0-.11374-.09389-.21409-.21462-.21409zm5.49972.21369v4.75666c0 .1204-.0939.2141-.2146.2141h-.7646c-.0738 0-.1409-.0401-.1744-.087l-2.1865-2.9436v2.8232c0 .1204-.0939.2141-.2146.2141h-.7646c-.1207 0-.2146-.0937-.2146-.2141V8.71683c0-.12042.0939-.21409.2146-.21409h.7579c.0671 0 .1408.03345.1744.09367l2.1864 2.94369V8.71683c0-.12042.0939-.21409.2147-.21409h.7645c.1208-.00669.2214.09367.2214.2074zm4.0241-.21369h-3.065c-.114 0-.2147.09366-.2147.21409v4.75666c0 .1137.0939.2141.2147.2141h3.065c.1208 0 .2147-.0937.2147-.2141v-.7627c0-.1204-.0939-.214-.2147-.214h-2.0858v-.8029h2.0858c.1208 0 .2147-.0936.2147-.214v-.7694c0-.1204-.0939-.2141-.2147-.2141h-2.0858v-.80281h2.0858c.1208 0 .2147-.09366.2147-.21408v-.76267c-.0067-.11374-.1006-.21409-.2147-.21409z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="icon-media-youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0821 4.8125c2.8001 0 4.2663.37305 5.0604 1.28759.7978.91859.8575 2.3256.8575 4.36721v3.6898c0 2.3395-.3809 3.6909-1.2736 4.5185-.8705.8071-2.216 1.1363-4.6443 1.1363H6.91772C1.9152 19.8119 1 17.9076 1 14.1571v-3.6898c0-1.93593 0-3.33469.77135-4.28402.79115-.97367 2.28218-1.37078 5.14637-1.37078H17.0821zm-6.5737 10.346l4.6156-2.337c.2345-.1186.3813-.3538.381-.6103-.0003-.2562-.1478-.4911-.3826-.6092l-4.6156-2.32187c-.2199-.11069-.4836-.10216-.69557.02255-.21191.12472-.34122.34748-.34122.58756v4.65896c0 .2404.12966.4634.342.5881.11276.0661.24009.0994.36769.0994.1127 0 .2255-.0259.3287-.0782z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 18">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5062 9.05942L1.50751 17.029C1.34379 17.1192 1.20525 17.1321 1.0919 17.0677C0.978549 17.0032 0.921875 16.8742 0.921875 16.6808V0.780363C0.921875 0.599822 0.978549 0.470866 1.0919 0.393491C1.20525 0.316116 1.34379 0.329012 1.50751 0.432178L15.5062 8.40174C15.6699 8.49201 15.7518 8.60162 15.7518 8.73058C15.7518 8.85954 15.6699 8.96915 15.5062 9.05942Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="circle-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12.9765 15.75h-1.9457v-4.9183h1.9457V15.75zM13.1764 8.56615c0 .61304-.493 1.06616-1.1594 1.06616-.6797 0-1.1728-.45312-1.1728-1.06616 0-.63969.4931-1.06615 1.1728-1.06615.6664 0 1.1594.42646 1.1594 1.06615z" fill="currentColor"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12c0 4.9706-4.0294 9-9 9-4.97056 0-9-4.0294-9-9 0-4.97056 4.02944-9 9-9 4.9706 0 9 4.02944 9 9zm-.9 0c0 4.4735-3.6265 8.1-8.1 8.1-4.47351 0-8.1-3.6265-8.1-8.1 0-4.47351 3.62649-8.1 8.1-8.1 4.4735 0 8.1 3.62649 8.1 8.1z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="circle-note" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12.7635 14.5772h-1.6361c-.0043-.2352-.0064-.3785-.0064-.4299 0-.5304.0876-.9667.263-1.3089.1754-.3422.5262-.7272 1.0523-1.1549.5262-.4278.8406-.708.9432-.8406.1583-.2096.2374-.4406.2374-.6929 0-.35081-.1411-.65024-.4235-.89834-.278-.25237-.6544-.37856-1.1292-.37856-.4577 0-.8406.13046-1.1486.3914-.3079.26093-.5197.65874-.6352 1.1934l-1.6554-.2053c.04705-.76567.37215-1.41586.97529-1.95056C10.2077 7.76735 11.0033 7.5 11.9872 7.5c1.0351 0 1.8586.27163 2.4703.81488.6117.53897.9175 1.16777.9175 1.88642 0 .3978-.1134.7742-.3401 1.1293-.2224.355-.7015.8384-1.4372 1.4501-.3807.3165-.6181.571-.7122.7635-.0899.1925-.1305.5368-.122 1.033zM12.9823 16.5063c0-.5322-.4282-.9257-1.0068-.9257-.5901 0-1.0182.3935-1.0182.9257 0 .5555.4281.9258 1.0182.9258.5786 0 1.0068-.3703 1.0068-.9258z" fill="currentColor"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12c0 4.9706-4.0294 9-9 9-4.97056 0-9-4.0294-9-9 0-4.97056 4.02944-9 9-9 4.9706 0 9 4.02944 9 9zm-.9 0c0 4.4735-3.6265 8.1-8.1 8.1-4.47351 0-8.1-3.6265-8.1-8.1 0-4.47351 3.62649-8.1 8.1-8.1 4.4735 0 8.1 3.62649 8.1 8.1z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+        <path d="M7 12l3.6667 4L18 8" stroke="#fff" stroke-width="2" fill="none"></path>
+      </symbol>
+      <symbol id="fail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5986 8.88304l.7071-.70711-1.4142-1.41421-.7071.70711-3.032 3.03197-3.03206-3.03197-.7071-.70711-1.41422 1.41421.70711.70711 3.03197 3.03206-3.03197 3.032-.70711.7071 1.41422 1.4142.7071-.7071 3.03206-3.032 3.032 3.032.7071.7071 1.4142-1.4142-.7071-.7071-3.032-3.032 3.032-3.03206z" fill="#fff"></path>
+      </symbol>
+      <symbol id="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="#fff" d="M6.2,12.6c-0.2,0-0.4-0.1-0.6-0.2l-3.7-4l1.1-1l3.1,3.4l6.8-7.4l1.1,1l-7.3,8C6.7,12.5,6.4,12.6,6.2,12.6z"></path>
+      </symbol>
+      <symbol id="aboutus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9 4.1 12 1.2 8 .1 4 1.2 1.1 4.1.1 8l1 4L4 14.9 8 16l4-1.1 2.9-2.9L16 8l-1.1-3.9zm-7 4.1v6.1c-.4-.3-4.8-2.8-5.2-3l5.2-3.1zm.2-.1 5.2-3v6l-5.2-3zM7.9 8 2.7 5c.5-.3 4.8-2.7 5.2-3v6zM2.6 5.2V11C2.2 10.4.5 8.3.3 8.1c.2-.3 1.8-2.4 2.3-2.9zm5.6 9 5.1-2.9c-.3.7-1.3 3.1-1.4 3.4-.4 0-3-.4-3.7-.5zm5-9.3-5-3c.7-.1 3.4-.5 3.7-.6.1.4 1.1 2.9 1.3 3.6zm-5.3-3-3.6-.6c.8-.2 3.3-.9 3.6-1v1.6zm-5.3 9.3 1.3 3.3c-.5-.5-2.3-2.3-2.6-2.5l1.3-.8zm5.3 3.1v1.5c-.4-.1-2.8-.8-3.6-1l3.6-.5zm7.8-6.5L13.4 5l1.3-.8c.1.5.8 2.9 1 3.6zM4 1.5l-.3.8c-.4 1-.9 2.3-1.1 2.6l-1.3-.7L4 1.5zm10.7 10.4-1.3-.7 2.3-2.8c-.3.7-.9 3.2-1 3.5z" fill="currentColor"></path>
+      </symbol>
+      <clipPath id="clip-polygon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+        <path d="M27.403 0L40.7859 3.82368L50.9824 13.3829L54.8061 27.403L50.9824 40.7859L41.1046 50.9824L27.403 54.8061L14.0202 50.9824L3.82368 40.7859L0 27.403L3.82368 13.3829L13.3829 3.82368L27.403 0Z" fill="currentColor"></path>
+      </clipPath>
+      <linearGradient id="linear-default">
+        <stop stop-color="#FF6700"></stop>
+        <stop offset="69%" stop-color="#FF8F08"></stop>
+      </linearGradient>
+      <linearGradient id="linear-hover">
+        <stop stop-color="#F73603"></stop>
+        <stop offset="69%" stop-color="#FF8F08"></stop>
+      </linearGradient>
+      <linearGradient id="linear-gray-background" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="35.28%" stop-color="#F9F9F9"></stop>
+        <stop offset="69%" stop-color="#E5E6E6"></stop>
+      </linearGradient>
+  </svg>
+
+  <div id="loadingBackground" class="loading_background">
+      <div class="loadind_background-center-box">
+        <svg width="126" height="126" viewBox="0 0 126 126" class="loadind_background-center-shape">
+            <path fill="none" fill-rule="nonzero" stroke="#FF6100" stroke-width="4" d="M63 3l30 8.038476L114.961524 33 123 63l-8.038476 30L93 114.961524 63 123l-30-8.038476L11.038476 93 3 63l8.038476-30L33 11.038476z"></path>
+        </svg>
+        <div class="loadind_background-center-number">
+            <svg width="57" height="15" viewBox="0 0 57 15">
+              <path fill="#FF6100" fill-rule="evenodd" d="M.4575 11V.26h2.16v8.925h5.4V11h-7.56zm8.61-3.99c0-1.845 1.245-3.96 4.005-3.96 2.7 0 4.02 2.07 4.02 4.035 0 2.145-1.5 4.095-4.005 4.095-1.23 0-4.02-.57-4.02-4.17zm2.115.105c0 1.65.915 2.385 1.89 2.385.93 0 1.905-.675 1.905-2.4 0-1.56-.855-2.37-1.905-2.37-.99 0-1.89.75-1.89 2.385zm9.12-1.515l-1.86-.345c.345-1.245 1.05-2.205 3.36-2.205 3.27 0 3.285 1.53 3.285 2.925 0 .48-.03 2.58-.015 3.015.045 1.02.15 1.365.45 2.01h-2.025c-.045-.105-.09-.21-.15-.435l-.12-.42c-.405.405-1.155 1.035-2.415 1.035-1.56 0-2.58-.945-2.58-2.295 0-1.905 1.755-2.25 2.835-2.46 1.155-.21 1.59-.33 1.995-.495v-.21c0-.51 0-1.095-1.41-1.095-1.005 0-1.215.585-1.35.975zm2.76 2.07v-.405c-.21.075-.39.135-.87.24-.105.015-.615.12-.705.15-.375.075-1.2.285-1.2 1.005 0 .435.345 1.065 1.14 1.065.48 0 .885-.21 1.2-.48.435-.375.435-.87.435-1.575zm11.16 3.33h-1.92V9.86h-.03c-.795 1.155-1.92 1.32-2.385 1.32-1.68 0-3.255-1.35-3.255-4.14 0-2.745 1.545-3.99 3.27-3.99 1.26 0 1.965.735 2.265 1.08V.26h2.055V11zm-2.04-4.065c0-1.575-.765-2.31-1.725-2.31-1.515 0-1.71 1.635-1.71 2.505 0 1.92.93 2.415 1.635 2.415.285 0 .735-.075 1.11-.435.495-.48.69-1.05.69-2.175zm4.05 4.065V3.23h2.055V11h-2.055zm0-8.835V.26h2.055v1.905h-2.055zM45.3975 11V7.025c0-1.275 0-2.4-1.26-2.4-.645 0-1.23.345-1.485.915-.21.45-.225 1.305-.225 1.935V11h-2.055V3.23h1.92v1.14h.03c.765-1.05 1.74-1.32 2.535-1.32.345 0 1.14.06 1.785.57.825.63.795 1.785.81 2.55V11h-2.055zm3.96.51l2.355.285c.015.075.03.39.33.615.06.045.345.165.87.165 1.71 0 1.71-.795 1.71-1.695V9.74h-.03c-.525.75-1.365 1.26-2.295 1.26-1.98 0-3.21-1.725-3.21-3.93 0-3.21 2.01-4.02 3.285-4.02 1.44 0 2.13.915 2.355 1.26h.03V3.23h1.92v6.975c0 2.16-.3 3.945-3.69 3.945-1.8 0-3.72-.435-3.63-2.64zm1.845-4.56c0 1.065.345 2.37 1.665 2.37.54 0 1.8-.3 1.8-2.325 0-.99-.36-2.37-1.77-2.37-1.56 0-1.695 1.74-1.695 2.325z"></path>
+            </svg>
+            <span>.</span><span>.</span><span>.</span>
+        </div>
+      </div>
+  </div>
+
+  <div id="container">
+    <div id="app">
+      <header>
+        <div class="top-nav -active">
+            <div class="gradient-line"></div>
+            <div class="top-nav-left">
+                <div>
+                    <a href="https://www.taiwanmobile.com/" class="-active">個人</a>
+                    <a href="https://www.taiwanmobile.com/events/doubleplay/5G_double_play-2.html">家庭</a>
+                    <a href="https://www.twmsolution.com/" target="_blank">企業</a>
+                    <a href="https://www.opbiz.tw/index.html" target="_blank">中小企業</a>
+                </div>
+            </div>
+            <div class="top-nav-right">
+                <div>
+                    <a href="https://corp.taiwanmobile.com/">關於我們</a>
+                    <a href="https://corp.taiwanmobile.com/social-responsibility/ourVision.html">永續ESG</a>
+                    <a href="https://english.taiwanmobile.com/index.html">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="main-nav-frame">
+                <div class="main-nav-logo">
+                    <a href="https://www.taiwanmobile.com">
+                        <img src="./img/logo.svg" alt="台灣大哥大">
+                    </a>
+                </div>
+                <div class="main-nav-tabs">
+                    <div class="main-nav-tabs-swiper swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="main-nav-tab swiper-slide">
+                                <span>
+                                    <p>品牌利多</p>
+                                </span>
+                            </div>
+                            <div class="main-nav-tab swiper-slide">
+                                <span>
+                                    <p>用戶服務</p>
+                                </span>
+                            </div>
+                            <div class="main-nav-tab swiper-slide">
+                                <span>
+                                    <p>我要續/換約</p>
+                                </span>
+                            </div>
+                            <div class="main-nav-tab swiper-slide">
+                                <span>
+                                    <p>慶祝方案</p>
+                                </span>
+                            </div>
+                            <div class="main-nav-tab swiper-slide">
+                                <span>
+                                    <p>常見問題</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-nav-btn swiper-navigation">
+                        <div class="main-nav-button -prev">
+                            <svg><use xlink:href="#left"></use></svg>
+                        </div>
+                        <div class="main-nav-button -next">
+                            <svg><use xlink:href="#right"></use></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-status">
+                    <div class="status-1">
+                      <div id="login-btn">
+                        <span>
+                          <svg><use xlink:href="#member"></use></svg>
+                        </span>
+                        <p id="test">登入/註冊</p>
+                      </div>
+                    </div>
+                    <div class="status-2">
+                      <div id="member-info">
+                        <div class="photo">
+                          <img src="https://www.taiwanmobile.com/common/images/defaultPicture70.gif" alt="">
+                        </div>
+                        <div class="phone-num">
+                          <p>09838***89</p>
+                        </div>
+                        <div class="logout" id="logout-btn">
+                          <p>登出</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gradient-line"></div>
+        </div>
+      </header>
+
+      <div id="container">
+        <div class="main-swiper-container swiper">
+          <div class="swiper-wrapper">
+
+            <!-- kv -->
+            <section class="swiper-slide kv-frame sec-0-frame">
+              <div class="sec-container">
+                <div class="bg">
+                  <div class="gradient-img">
+                    <div class="bg-1"></div>
+                    <div class="bg-2"></div>
+                    <div class="bg-3"></div>
+                  </div>
+                  <div class="main-polygon" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./img/main-polygon.png" class="custom-anis" alt="" data-cus-ani-name="shine">
+                  </div>
+                  <div class="blur-polygon org-polygon-1 custom-ani" data-cus-ani-name="floatY" data-cus-ani-dur="3s" data-cus-ani-dir="alternate-reverse">
+                    <div>
+                    </div>
+                  </div>
+                  <div class="blur-polygon" move data-move-range="0.02">
+                    <div class="custom-ani" data-cus-ani-dur="" data-cus-ani-name="floatXY" data-cus-ani-dur="10s" data-aos="fade-up" data-aos-delay="600">
+                      <img src="./img/blur-polygon-w.png" alt="">
+                    </div>
+                  </div>
+                  <div class="blur-polygon org-polygon-2 custom-ani" data-cus-ani-name="floatX" data-cus-ani-dur="10s">
+                    <div>
+                    </div>
+                  </div>
+                  <div class="white-stroke-polygon" move data-move-dir="reverse" data-move-range="0.01">
+                    <img src="./img/white-stroke-polygon.png" alt="" class="custom-ani" data-cus-ani-dur="" data-cus-ani-name="floatYX" data-cus-ani-dur="7s"  data-aos="fade-up" data-aos-delay="600">
+                  </div>
+                  <div class="white-solid-polygon">
+                    <img src="./img/white-solid-polygon.png" alt="">
+                  </div>
+                </div>
+                <div class="ctn-container" data-aos="fade-up" data-aos-duration="1500">
+                  <p class="p1">
+                    歡迎加入台灣大哥大<br>
+                    共創能所不能的未來願景
+                  </p>
+                  <p class="p2">
+                    Open Possible
+                  </p>
+                  <div class="play-btn">
+                    <div class="btn">
+                        <img src="./img/play-btn.png" alt="">
+                    </div>
+                    <p>播放TVC</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 優勢 -->
+            <section class="swiper-slide sec-1-frame">
+              <div class="sec-container">
+                <div class="ctn-container">
+                  <div class="swiper" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide slide-1">
+                        <div class="slide-container">
+                          <div class="text-wrap">
+                            <div class="title tit-underline">
+                              <p><img src="img/sec-1-slide/slide_1_t.svg" alt=""></p>
+                            </div>
+                            <div class="sub-title">
+                              <p>最大5G黃金頻段(100MHz)，<br>享個人最大頻寬</p>
+                            </div>
+                            <div class="inner">
+                              <p>合併後台灣大在5G 3.5GHz頻段擁有100MHz最大頻寬，無虛頻及低效能/低利用率之頻段，以先進的<strong>5G載波聚合(NR CA)技術，串聯不同頻段超過15,000座基地台</strong>，讓用戶享個人最大頻寬、更大涵蓋，網路效能有感升級，飆網更暢快。</p>
+                            </div>
+                          </div>
+                          <div class="img-wrap">
+                            <div class="img-bg" style="background-image: url('img/sec-1-slide/slide_1_b.png');"></div>
+                            <div class="img-content"><img src="img/sec-1-slide/slide_1_f.png"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide slide-2">
+                        <div class="slide-container">
+                          <div class="text-wrap">
+                            <div class="title tit-underline">
+                              <p><img src="img/sec-1-slide/slide_2_t.svg" alt=""></p>
+                            </div>
+                            <div class="sub-title">
+                              <p>唯一700MHz和900MHz<br>
+                                雙低頻，室內無界涵蓋更穩定</p>
+                            </div>
+                            <div class="inner">
+                              <p>合併後台灣大擁有深層室內涵蓋的關鍵雙頻段(700MHz和900MHz)，並有<strong>領先業界最多低頻基地台設備建設</strong>，雙頻保障通訊更順暢。</p>
+                            </div>
+                          </div>
+                          <div class="img-wrap">
+                            <div class="img-bg" style="background-image: url('img/sec-1-slide/slide_2_b.png');"></div>
+                            <div class="img-content"><img src="img/sec-1-slide/slide_2_f.png"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide slide-3">
+                        <div class="slide-container">
+                          <div class="text-wrap">
+                            <div class="title tit-underline">
+                              <p><img src="img/sec-1-slide/slide_3_t.svg" alt=""></p>
+                            </div>
+                            <div class="sub-title">
+                              <p>一辦即享，多元娛樂無極限</p>
+                            </div>
+                            <div class="inner">
+                              <p>合併後網內用戶擴大至近千萬，除了網內更多優惠外，還有mo幣多、好速成双、Disney+等資費專案，以及<strong>多樣視聽娛樂平台加值服務</strong>，提供用戶多元選擇，享受無可比擬的數位體驗！</p>
+                            </div>
+                          </div>
+                          <div class="img-wrap">
+                            <div class="img-bg" style="background-image: url('img/sec-1-slide/slide_3_b.png');"></div>
+                            <div class="img-content"><img src="img/sec-1-slide/slide_3_f.png"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide slide-4">
+                        <div class="slide-container">
+                          <div class="text-wrap">
+                            <div class="title tit-underline">
+                              <p><img src="img/sec-1-slide/slide_4_t.svg" alt=""></p>
+                            </div>
+                            <div class="sub-title">
+                              <p>年省近2億度電</p>
+                            </div>
+                            <div class="inner">
+                              <p>合併後台灣大計劃<strong>減少一整套3G網路和數千個4/5G基地台設備的重複布建</strong>，用電降低 0.74 億度/年，相當於 95 個大安森林公園減碳效果；而若對比兩家公司兩套電信基礎建設各自持續建設和營運，及台灣大的節能措施，每年將省電高達一到兩億度，<strong>減碳量高達5.1萬噸到10.2萬噸</strong>，相當於減少255座大安森林公園的吸碳量，為用戶和環境創造雙贏。</p>
+                            </div>
+                          </div>
+                          <div class="img-wrap">
+                            <div class="img-bg" style="background-image: url('img/sec-1-slide/slide_4_b.png');"></div>
+                            <div class="img-content"><img src="img/sec-1-slide/slide_4_f.png"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-navigation">
+                      <div class="arrow -prev -reverse">
+                         <div class="arrow-frame">
+                            <div class="arrow-bg">
+                              <span class="arrow-bg-default"></span>
+                              <span class="arrow-bg-hover"></span>
+                            </div>
+                            <svg><use xlink:href="#arrow"></use></svg>
+                         </div>
+                      </div>
+                      <div class="arrow -next">
+                         <div class="arrow-frame">
+                            <div class="arrow-bg">
+                              <span class="arrow-bg-default"></span>
+                              <span class="arrow-bg-hover"></span>
+                            </div>
+                            <svg><use xlink:href="#arrow"></use></svg>
+                         </div>
+                      </div>
+                   </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 用戶服務 -->
+            <section class="swiper-slide sec-2-frame">
+              <div class="sec-container">
+                <div class="bg" data-aos="fade-in" data-aos-duration="1000"></div>
+
+                <div class="ctn-container -unlogin -active" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="text-wrap">
+                    <div class="title tit-underline">
+                      <p><img src="img/sec-title-用戶服務.svg" alt=""></p>
+                    </div>
+                    <div class="inner">
+                      <p>歡迎原台灣之星用戶點擊下方登入按鈕 或 文字選單，依您需求使用各項線上自助服務。</p>
+                    </div>
+                  </div>
+                  <div class="list-wrap">
+                    <ul class="service-list">
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">當期用量查詢</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的帳單</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的合約</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">電子發票查詢/設定</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">帳單繳費</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">加值服務</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的VIP</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">預付卡儲值</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">加購流量</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">國際漫遊</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">VoLTE服務</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">看更多服務<span class="tips">(原myTSTAR總覽頁)</span></a></li>
+                    </ul>
+                    <div class="cta-wrap">
+                      <a class="public-btn js-login">
+                        <div class="public-btn-bg">
+                          <span class="public-btn-bg -default"></span>
+                          <span class="public-btn-bg -hover"></span>
+                        </div>
+                        <p>登入</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="other_service">
+                    <ul class="service-list">
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的優惠券</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">訂單查詢</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">聯絡客服</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">了解合併後用戶權益/服務異動說明</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ctn-container -login-month" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="text-wrap">
+                    <div class="title tit-underline">
+                      <p><img src="img/sec-title-用戶服務.svg" alt=""></p>
+                    </div>
+                    <div class="inner">
+                      <p>親愛的用戶您好：<br>
+                        您可點擊下方文字選單，使用各項線上自助服務</p>
+                    </div>
+                  </div>
+                  <div class="list-wrap">
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <ul class="service-list">
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">當期用量查詢</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">帳單繳費</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">加購流量</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的帳單</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">電信帳單代收</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">聯絡客服</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的合約</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">加值服務</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">國際漫遊</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的優惠券</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">訂單查詢</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">VoLTE服務</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">電子發票查詢/設定</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的VIP</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">會員中心<span class="tips">(原myTSTAR總覽頁)</span></a></li>
+                          </ul>
+                        </div>
+                        <div class="swiper-slide">
+                          <ul class="service-list double-column">
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                            <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">page 2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="swiper-navigation cta-wrap -black">
+                        <div class="arrow -prev -reverse">
+                           <div class="arrow-frame">
+                              <div class="arrow-bg">
+                                <span class="arrow-bg-default"></span>
+                                <span class="arrow-bg-hover"></span>
+                              </div>
+                              <svg><use xlink:href="#arrow"></use></svg>
+                           </div>
+                        </div>
+                        <div class="arrow -next">
+                           <div class="arrow-frame">
+                              <div class="arrow-bg">
+                                <span class="arrow-bg-default"></span>
+                                <span class="arrow-bg-hover"></span>
+                              </div>
+                              <svg><use xlink:href="#arrow"></use></svg>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="other_service">
+                    <ul class="service-list">
+                      <li class="item"><a class="" href="javascript:to_prepay_service()">了解合併後用戶權益/服務異動說明</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ctn-container -login-prepay" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="text-wrap">
+                    <div class="title tit-underline">
+                      <p><img src="img/sec-title-用戶服務.svg" alt=""></p>
+                    </div>
+                    <div class="inner">
+                      <p>親愛的預付卡用戶您好：<br>
+                        您可點擊下方文字選單，使用各項線上自助服務</p>
+                    </div>
+                  </div>
+                  <div class="list-wrap">
+                    <ul class="service-list double-column">
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">可用量查詢</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">聯絡客服</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">快速儲值</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">eSIM服務</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">儲值記錄</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">訂單查詢</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">電子發票查詢/設定</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">會員資料設定</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">我的優惠券</a></li>
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">儲值說明</a></li>
+                    </ul>
+                  </div>
+                  <div class="other_service">
+                    <ul class="service-list">
+                      <li class="item"><a class="switch_link" href="index.html?l=ori" data-link-dt="index.html?l=pc" data-link-mb="index.html?l=mb">了解合併後用戶權益/服務異動說明</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 續換約 -->
+            <section class="swiper-slide sec-3-frame">
+              <div class="sec-container">
+                <div class="bg">
+                  <div class="blur-polygon blur-polygon-1" move data-move-range="0.002">
+                    <div class="custom-ani" data-cus-ani-dur="" data-cus-ani-name="floatXY" data-cus-ani-dur="7s"></div>
+                  </div>
+                  <div class="blur-polygon blur-polygon-2" move  data-move-range="0.007">
+                    <div class="custom-ani" data-cus-ani-dir="alternate-reverse" data-cus-ani-name="floatY" data-cus-ani-dur="3s"></div>
+                  </div>
+                  <div class="people" >
+                    <img src="./img/agreement-bg.png" data-aos="fade-right" data-aos-duration="1000">
+                  </div>
+                </div>
+                <div class="ctn-container">
+                  <div class="text-wrap" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="title tit-underline">
+                      <p><img src="img/sec-title-續換約.svg" alt=""></p>
+                    </div>
+                    <div class="inner">
+                      <p>
+                        原台灣之星用戶若您有續換約需求，歡迎您由此登入專屬續換約專區，您可使用原網站帳號/密碼登入，系統將自動推薦您適合的多樣方案選擇，享受台灣大哥大好速方案、OP響樂生活、熱門新機/家電的專屬的好禮優惠。
+                      </p>
+                    </div>
+                    
+                    <div class="btn-wrap">
+                      <a href="" target="_blank" class="public-btn">
+                        <div class="public-btn-bg">
+                          <span class="public-btn-bg -default"></span>
+                          <span class="public-btn-bg -hover"></span>
+                        </div>
+                        <p>線上續約</p>
+                      </a>
+                      <a href="" target="_blank" class="public-btn">
+                        <div class="public-btn-bg">
+                          <span class="public-btn-bg -default"></span>
+                          <span class="public-btn-bg -hover"></span>
+                        </div>
+                        <p>線上換約</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 慶祝方案 -->
+            <section class="swiper-slide sec-4-frame">
+              <div class="sec-container">
+                <div class="ctn-container">
+                  
+                  <div class="swiper" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="text-wrap">
+                      <div class="title tit-underline">
+                        <p><img src="img/sec-title-慶祝方案.svg" alt=""></p>
+                      </div>
+                    </div>
+
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slide-1">
+                        <a href="" class="slide-container">
+                          <img class="dt" src="img/celibrate/home-desktop-right_1600x600.png" alt="">
+                          <img class="mb" src="img/celibrate/home-mobile_720x840.png" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide slide-2">
+                        <a href="" class="slide-container">
+                          <img class="dt" src="img/celibrate/p8-1600600.png" alt="">
+                          <img class="mb" src="img/celibrate/p8_720840.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide slide-3">
+                        <a href="" class="slide-container">
+                          <img class="dt" src="img/celibrate/sony_package_1600600.png" alt="">
+                          <img class="mb" src="img/celibrate/sony_package_720840.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide slide-4">
+                        <a href="" class="slide-container">
+                          <img class="dt" src="img/celibrate/2309dp_1600600.png" alt="">
+                          <img class="mb" src="img/celibrate/2309dp_720840.jpg" alt="">
+                        </a>
+                      </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-navigation">
+                      <div class="arrow -prev -reverse">
+                         <div class="arrow-frame">
+                            <div class="arrow-bg">
+                              <span class="arrow-bg-default"></span>
+                              <span class="arrow-bg-hover"></span>
+                            </div>
+                            <svg><use xlink:href="#arrow"></use></svg>
+                         </div>
+                      </div>
+                      <div class="arrow -next">
+                         <div class="arrow-frame">
+                            <div class="arrow-bg">
+                              <span class="arrow-bg-default"></span>
+                              <span class="arrow-bg-hover"></span>
+                            </div>
+                            <svg><use xlink:href="#arrow"></use></svg>
+                         </div>
+                      </div>
+                    </div>
+
+                    <a class="cta_btn" href="">探索更多方案</a>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+        <div class="final-sec">
+          <div id="QA">
+            <div class="title tit-underline">
+              <p><img src="img/sec-title-QA.svg" alt=""></p>
+            </div>
+            <div class="qa -card">
+              <div class="q-select-wrap">
+                <p>問題類別</p>
+                <div class="select-wrap">
+                  <select name="" id="qa-select">
+                    <option value="0">用戶權益問題</option>
+                    <option value="1">合併時程/訊號問題</option>
+                    <option value="2">申辦/續約作業問題</option>
+                    <option value="3">專案優惠問題</option>
+                    <option value="4">預付卡問題</option>
+                  </select>
+                  <div class="select-icon">
+                    <svg><use xlink:href="#down"></use></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="qa-wrap qa-1 -active">
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">1.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">請問我在台灣之星的合約及優惠，在整合後會全部續用嗎？(例如：終身0月租方案、299/599吃到飽...)</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣大哥大會保障台灣之星用戶的專案合約，合約優惠維持不變。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">2.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">目前我在台灣之星的合約已到，我可以等到你們合併後再續約嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          合併後原台灣之星用戶符合續約資格即可選擇台灣大哥大的專案續約。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">3.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星與台灣大哥大整合後，我可以要求跟台灣大哥大重新簽新約嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣大哥大會針對原台灣之星用戶提供換約續約專案，台灣之星用戶可視自身需求選擇。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">4.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星的老客戶資格會延續到台灣大哥大嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          有關台灣之星VIP或相關老客戶資格等，我們尚在研議合併後的相關措施及規劃， 具體的方案將於合併後公告。<br>
+                          台灣大哥大會保障台灣之星用戶的相關權益。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">5.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">我現在如果續約台灣之星的專案，整合後可以繼續台灣之星的資費嗎?需要改台灣大的資費嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣大哥大會保障台灣之星用戶的專案合約，合約優惠維持不變。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">6.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星整合到台灣大哥大後，有電信問題要反映，是打給台灣大哥大客服還是台灣之星客服?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          整合後會是同一家公司，客服皆一致化以最高品質服務用戶。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">7.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">你們不是已經整合了嗎？我可以向你們問台灣之星的問題嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          目前合併仍待公平會核可，目前仍是兩家不同公司。正式合併預計還需6~12個月。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">8.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星與台灣大哥大合併後，若攜碼中的台灣之星客戶如何處理，攜碼費用如何計算?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          攜碼到台灣大哥大中的攜碼費用將作減免。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">9.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">合併後原本台灣大哥大的用戶使用上是否會受到影響?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣大哥大用戶權益不受任何影響。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">10.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">整合後台灣之星用戶就可以使用VoWiFi通話了嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後原台星用戶若是要申請VoLTE及VoWiFi服務，除檢視手機是否支援外，需更換SIM卡才能使用。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="qa-wrap qa-2">
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">1.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">請問何時會完成合併?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          目前台灣之星與台灣大哥大的合併案已獲得主管機關NCC(國家通訊傳播委員會)、FTC(公平交易委員會)核准，再進一步完成金管會程序後合併才正式生效，合併生效日將另行公告。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">2.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星用戶是否需立即更換SIM卡</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          請您放心，目前仍可正常使用，部分加值服務能否續用，需視與合作業者之協議而定。<br>
+                          合併生效日後，若有用戶個別狀況，將會主動通知用戶進行處理，確保您能享有最完整的服務。                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">3.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">目前台灣之星用戶可以申辦台灣大哥大續約專案/優惠了嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          現階段歡迎攜碼移入申辦台灣大哥大專案，合併生效日後即可續約申辦台灣大哥大專案或服務。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">4.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星與台灣大哥大用戶是否會成為網內互打?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併生效日後，原台灣之星用戶與台灣大哥大用戶即成為網內用戶，可享網內費率。<br>
+                          (實際費率將依照用戶選擇的專案計算)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">5.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">原台灣之星的合約/預繳款/服務/權益…等，整合後台灣大哥大是否承擔?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併生效後，對於合約仍屬有效之原台灣之星用戶，台灣大哥大將依合約條件（包含預繳款）繼續履行提供服務，不受雙方合併而有影響。<br>
+                          如您的合約已到期或符合續約資格，建議您可先至門市挑選手機和續約優惠方案，確保資費使用權益。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">6.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">合併後原本的台灣大哥大用戶是否會受到影響?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          台灣大哥大用戶權益不會受到影響，且合併後可享有更大網的網內互打優惠，隨著網路陸續整合也會有更廣涵蓋與更高網速！
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">7.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星整合到台灣大哥大後，有電信問題要反應(ex.繳費/維修/訊號問題...等)時是要詢問台灣大哥大還是台灣之星門市/客服?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          目前兩家公司合併尚未生效，台灣之星用戶仍請洽詢台灣之星門市／客服，待合併生效日後即可透過台灣大哥大客服專線/門市人員尋求協助。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="qa-wrap qa-3">
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">1.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星用戶可以在台灣大哥大門市繳費嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          台灣之星用戶可以在台灣大哥大門市繳費嗎?
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">2.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星用戶可以在台灣大哥大門市繳費嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          在兩家公司還未正式合併前，台灣之星及台灣大哥大仍是兩家公司，未合併前無法提供台灣之星用戶任何服務喔！
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">3.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">我在台灣之星還有合約，可以在台灣大哥大續約嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣之星用戶只要符合續約資格即可選擇台灣大哥大專案續約！
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">4.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">合併後在台星申辦的手機可以在台哥大維修嗎??</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          用戶之前於台灣之星購買的手機，合併後都將由台哥大負責維修，服務不中斷！
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="qa-wrap qa-4">
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">1.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣之星人員告知目前可以先申辦專案，是不是要在合併前先轉去台灣之星比較划算?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          目前雙方還未完全獲准正式合併，仍待公平會核可，預計正式合併還需6~12個月。<br>
+                          合併前選擇台灣之星的用戶仍是使用台灣之星網路訊號。<br>
+                          台灣大哥大提供更多元的資費優惠選擇，也能立即使用更大頻寬及涵蓋的網路服務。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">2.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">原在台灣之星已續約且有預繳款，整合後台灣大哥大是否承擔台灣之星的預收款項?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          台灣大哥大會保障維護原台灣之星用戶的專案合約包含合約優惠及預收款等。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">3.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">合併後會有像台灣之星一樣低月租費方案嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後台灣大哥大除現有完整的資費專案外(月租最低$129起)<br>
+                          也會保留台灣之星特色資費及提供特定族群優惠方案，並根據市場狀況隨時推出符合消費者需求的優惠。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">4.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">是否享有網內互打免費?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="qa-item-accordion">
+                    <div class="qa-item-content">
+                      <div class="qa-item-content-column">
+                        <p>
+                          合併後原台灣之星用戶可享有跟台灣大哥大用戶網內互打優惠，網內互打費率則視用戶選擇的專案內容而定。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="qa-wrap qa-5">
+                <div class="qa-item">
+                  <div class="qa-item-switch">
+                    <div class="qa-item-number">1.</div>
+                    <div class="qa-item-topic">
+                       <p class="qa-item-topic-title">台灣大哥大預付卡的申辦額度有包含台灣之星嗎?</p>
+                       <div class="qa-item-topic-icon">
+                          <svg>
+                             <use xlink:href="#down"></use>
+                          </svg>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="qa-item-accordion">
+                  <div class="qa-item-content">
+                     <div class="qa-item-content-column">
+                        <p>
+                          合併後會成為一家公司，預付卡申辦額度將會整合計算。
+                        </p>
+                     </div>
+                  </div>
+               </div>
+                </div>
+              </div>
+            </div>
+            <div class="cta-wrap">
+              <a class="public-btn js-login">
+                <div class="public-btn-bg">
+                  <span class="public-btn-bg -default"></span>
+                  <span class="public-btn-bg -hover"></span>
+                </div>
+                <p>我有問題</p>
+              </a>
+            </div>
+          </div>
+
+          <footer>
+            <div class="gradient-line"></div>
+            <a class="logo" href="">
+              <img src="./img/logo-white.svg" alt="">
+            </a>
+            <p>台灣大哥大股份有限公司 版權所有 © 2023</p>
+          </footer>
+        </div>
+      </div>
+
+      <div class="float-tool -active">
+        <div class="float-tool-frame swiper-container swiper">
+          <div class="tab">
+            <p>快速服務</p>
+            <div class="icon">
+              <svg><use xlink:href="#arrow"></use></svg>
+            </div>
+          </div>
+          <div class="tool swiper-wrapper">
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/public/ms-my-phone.png?v=20220223" alt="">
+              </div>
+              <p>智能客服</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="./img/renew.svg" alt="">
+              </div>
+              <p>續約</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/icon/service/bill.svg" alt="">
+              </div>
+              <p>帳單</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/icon/service/pay.svg" alt="">
+              </div>
+              <p>繳費</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/icon/service/pay.svg" alt="">
+              </div>
+              <p>繳費</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/icon/service/pay.svg" alt="">
+              </div>
+              <p>繳費</p>
+            </a>
+            <a class="item swiper-slide" href="">
+              <div class="img">
+                <img src="https://www.taiwanmobile.com/bp-include/Y22/img/icon/service/pay.svg" alt="">
+              </div>
+              <p>繳費</p>
+            </a>
+          </div>
+        </div>
+        <div class="swiper-button-prev swiper-navigation -prev"><svg><use xlink:href="#left"></use></svg></div>
+        <div class="swiper-button-next swiper-navigation -next"><svg><use xlink:href="#right"></use></svg></div>
+      </div>
+
+      <a href="" class="chat-btn">
+        <p>我要問小麥</p>
+        <div style="background-image: url(&quot;https://www.taiwanmobile.com/bp-include/Y22/img/public/ms-my-phone.png?v=20220223&quot;)";></div>
+      </a>
+
+      <div class="top-btn">
+        <svg><use xlink:href="#arrow"></use></svg>
+      </div>
+
+      <div class="popup-frame">
+        <div class="popup popup-1 -card">
+          <div class="text-wrap">
+            <div class="title">
+              <p><span class="org">用戶</span>權益</p>
+            </div>
+            <ul>
+              <li>
+                <p class="p1">用戶權益A</p>
+                <p class="p2">
+                  這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假<br>
+                  這是假字敘述文案這是假
+                </p>
+              </li>
+              <li>
+                <p class="p1">用戶權益A</p>
+                <p class="p2">
+                  這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假<br>
+                  這是假字敘述文案這是假
+                </p>
+              </li>
+              <li>
+                <p class="p1">用戶權益A</p>
+                <p class="p2">
+                  這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假<br>
+                  這是假字敘述文案這是假
+                </p>
+              </li>
+              <li>
+                <p class="p1">用戶權益A</p>
+                <p class="p2">
+                  這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假字敘述文案這是假<br>
+                  這是假字敘述文案這是假
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="close">
+            <svg><use xlink:href="#close"></use></svg>
+          </div>
+        </div>
+        <div class="popup popup-2 -card">
+          <div class="text-wrap">
+            <!-- <div class="title">
+              <p>貼心提醒</p>
+            </div> -->
+            <p class="inner">
+              原台灣之星用戶您好：<br>
+              如您有查詢合約、繳費…等網站線上自助服務需求，請選擇 & 點擊下方按鈕，我們將導引您前往專屬頁面。
+            </p>
+            <div class="btn-wrap">
+              <div class="btn-block">
+                <div class="service-detail">
+                  如您是原台灣之星用戶，<span class="org">還沒完成</span>「台灣大會員」註冊，請點選
+                </div>
+                <a href="javascript:fake_login()" class="public-btn">
+                  <div class="public-btn-bg">
+                    <span class="public-btn-bg -default"></span>
+                    <span class="public-btn-bg -hover"></span>
+                  </div>
+                  <p>原門號+密碼註冊</p>
+                </a>
+              </div>
+              <div class="btn-block">
+                <div class="service-detail">
+                  如您是原台灣之星用戶，<span class="org">已完成</span>「台灣大會員」註冊，請點選
+                </div>
+                <a href="javascript:fake_login()" class="public-btn">
+                  <div class="public-btn-bg">
+                    <span class="public-btn-bg -default"></span>
+                    <span class="public-btn-bg -hover"></span>
+                  </div>
+                  <p>登入</p>
+                </a>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="close">
+            <svg><use xlink:href="#close"></use></svg>
+          </div>
+        </div>
+        <div class="popup popup-3">
+          <div class="video-frame">
+            <div id="video">
+
+            </div>
+            <div class="close">
+              <svg><use xlink:href="#close"></use></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/index.js"></script>
+
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('video', {
+        height: '390',
+        width: '640',
+        videoId: 'M7lc1UVf-VE',
+        playerVars: {
+          'playsinline': 1
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

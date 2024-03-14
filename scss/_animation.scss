@@ -1,0 +1,62 @@
+.custom-ani{
+    animation-iteration-count: infinite;
+}
+[kv]{
+    opacity: 0;
+}
+@keyframes floatX {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-10%);
+    }
+}
+@keyframes floatY {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-10%);
+    }
+}
+@keyframes floatYpx {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes floatXY {
+    0%{
+        transform: translate(0% , 0%);
+    }
+    100%{
+        transform: translate(-10%, -10%);
+    }
+}
+@keyframes floatYX {
+    0%{
+        transform: translate(0% , 0%);
+    }
+    100%{
+        transform: translate(10%, 10%);
+    }
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes shine {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
